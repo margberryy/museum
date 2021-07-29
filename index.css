@@ -1,0 +1,108 @@
+html {
+  scroll-behavior: smooth;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1440px;
+  border: 1px solid red;
+  width: calc(100% - 40px);
+}
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: black;
+  padding: 0 70px;
+}
+
+.logo {
+  background-image: url("logo.png");
+
+  text-transform: uppercase;
+}
+nav {
+  color: white;
+  max-width: 720px;
+}
+ul {
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+li {
+  list-style: none;
+  padding: 50px;
+}
+.dark-section {
+  color: white;
+  margin: 0;
+  border: 1px solid blue;
+  background: black;
+}
+.Welcome {
+  text-transform: uppercase;
+  padding: 75px;
+}
+.Visiting {
+  border: 1px solid green;
+  padding: 70px;
+}
+.Explore {
+  display: flex;
+}
+.Explore span {
+  color: #caaa7d;
+  padding: 75px;
+}
+.card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px 40px;
+  max-width: 1440px;
+}
+.card-container a {
+  display: block;
+}
+.card-container img {
+  width: 400px;
+  height: 285px;
+}
+.explore-container {
+  display: flex;
+}
+.restored-pic {
+  width: 720px;
+  height: 700px;
+}
+.Tickets {
+}
+.tickets-container {
+  display: flex;
+}
+.contacts-container {
+  display: flex;
+  justify-content: space-between;
+}
+.content {
+}
+.image {
+  background-image: url("assets/background.jpg");
+}
+.section {
+  padding: 75 75;
+}
+.section-title {
+  font-size: 32px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
